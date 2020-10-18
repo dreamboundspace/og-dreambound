@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	<title>dreambound | design</title>
+	
+	<link href="CSS/style.css" rel="stylesheet" type="text/css">
+	<link href="CSS/reset.css" rel="stylesheet" type="text/css">
+	<link href="CSS/debug.css" rel="stylesheet" type="text/css">
+	<link href="CSS/Design-style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rokkitt:wght@300&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/54076f8c27.js" crossorigin="anonymous"></script>
+	
+	<style type="text/css">
+	</style>
+</head>	
+	
+
+	
+<body>
+	<div id="toplinks">
+		<div id="edge">
+			<a href="https://www.instagram.com/dreambound.space/" class="fa fa-instagram"></a>
+			<a href="https://twitter.com/dreamboundspace" class="fa fa-twitter"></a>
+			<a href="https://dreamboundspace.tumblr.com" class="fab fa-tumblr"></a>
+		</div>
+		<div id="baby-moon"><img src="images/MoonLogo.png" alt="baby moon" class="babymoon"/></div>
+		<div id="about"><a href="about.html">about</a></div>
+	</div>
+	
+	
+	<div id="boxlinks">
+		<div id="store"><a href="https://shop.dreambound.space">store</a></div>
+		<div id="design"><a href="Page-4-Design.html">design</a></div>
+		<div id="playlists"><a href="Page-3-Playlists.html">playlists</a></div>
+		<div id="contact"><a href="Page-5-Contact.html">contact</a></div>
+		
+		<div id="wordmark-white"><a href="index.html"><img src="images/Wordmark-white.png" height="70" alt="dreambound" class="responsive"/></a> 
+			<div id="wordmark-rainbow"><a href="index.html"><img src="images/Wordmark-rising-moon.png" height="70" alt="dreambound" class="responsive"/></a></div>
+		</div>
+	
+	</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+<!-- Trigger the Modal -->
+<div class="row">
+	<div class="column">
+		<img class="myImg" src="designimages/thursday-2.0.jpg" alt="thursday">
+		<img class="myImg" src="designimages/crash.jpg" alt="crash">
+		<img class="myImg" src="designimages/amongst-the-night-terrors.jpg" alt="amongst the night terrors">
+		<img class="myImg" src="designimages/onlyragers.jpg" alt="only ragers allowed">
+		<img class="myImg" src="designimages/late-night.jpg" alt="late night">
+		<img class="myImg" src="designimages/auditory.jpg" alt="auditory hallucinations">
+		<img class="myImg" src="designimages/Untitled-2.jpg" alt="untitled 2">
+	</div>
+	<div class="column">
+		<img class="myImg" src="designimages/b&p.jpg" alt="beauty & psychosis">
+		<img class="myImg" src="designimages/spectrum.jpg" alt="a spectrum">
+		<img class="myImg" src="designimages/biscayne.jpg" alt="biscayne">
+		<img class="myImg" src="designimages/x.jpg" alt="x">
+		<img class="myImg" src="designimages/campitos.jpg" alt="campitos (Orlando)">
+		<img class="myImg" src="designimages/Reptar.jpg" alt="reptar">
+		<img class="myImg" src="designimages/stars.jpg" alt="the star room">
+	</div>
+	<div class="column">
+		<img class="myImg" src="designimages/crux.jpg" alt="crux">
+		<img class="myImg" src="designimages/moshman.jpg" alt="mosh man">
+		<img class="myImg" src="designimages/Undead Head.png" alt="the undead">
+		<img class="myImg" src="designimages/crianca.jpg" alt="criança">
+		<img class="myImg" src="designimages/watch.jpg" alt="watch">
+		<img class="myImg" src="designimages/parasomnia.jpg" alt="parasomnia">
+		<img class="myImg" src="designimages/Soulless.jpg" alt="soulless">
+	</div>
+	<div class="column">
+		<img class="myImg" src="designimages/getlost.jpg" alt="you may get lost">
+		<img class="myImg" src="designimages/malice.jpg" alt="heart of malice">
+		<img class="myImg" src="designimages/80s.jpg" alt="80's Night">
+		<img class="myImg" src="designimages/untitled3.jpg" alt="untitled 3">
+		<img class="myImg" src="designimages/laflame.jpg" alt="la flame">
+		<img class="myImg" src="designimages/fallingapart.jpg" alt="falling apart">
+		<img class="myImg" src="designimages/lord.jpg" alt="lord">
+	</div>
+</div>
+
+<div id="myModal" class="modal">
+
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <img class="modal-content" id="img01">
+
+  <div id="caption"></div>
+</div>
+	
+<script>
+	
+var modal = document.getElementById('myModal');
+
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+	
+</script>
+	
+</body>
+	
+	
+	
+	
+</html>
