@@ -1,6 +1,5 @@
 .row {
-  position: absolute;
-  z-index: -1;
+  position: static;
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
