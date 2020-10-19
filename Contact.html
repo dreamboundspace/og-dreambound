@@ -28,17 +28,17 @@
 		<div id="about"><a href="about.html">about</a></div>
 	</div>
 	
-	<div class="container">
+	<div class="container" method="POST" action="form.php" id="contact-form">
   		<form action="action_page.php">
 
-    	<label for="fname">First Name</label>
-    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+    	<label for="fname">name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="name..">
 
-		<label for="lname">Last Name</label>
-    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		<label for="lname">email</label>
+    	<input type="text" id="lname" name="lastname" placeholder="email address..">
 
-		<label for="subject">Subject</label>
-    	<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+		<label for="subject">subject</label>
+    	<textarea id="subject" name="subject" placeholder="write something.." style="height:200px"></textarea>
 
     	<input type="submit" value="Submit">
 
@@ -55,5 +55,46 @@
 			<div id="wordmark-rainbow"><a href="index.html"><img src="images/Wordmark-rainbow.png" height="70" alt="dreambound" class="responsive"/></a></div>
 		</div>
 	</div>
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+	
+	
+	<script>
+   const constraints = {
+       name: {
+           presence: { allowEmpty: false }
+       },
+       email: {
+           presence: { allowEmpty: false },
+           email: true
+       },
+       message: {
+           presence: { allowEmpty: false }
+       }
+   };
+
+   const form = document.getElementById('contact-form');
+
+   form.addEventListener('submit', function (event) {
+     const formValues = {
+         name: form.elements.name.value,
+         email: form.elements.email.value,
+         message: form.elements.message.value
+     };
+
+     const errors = validate(formValues, constraints);
+
+     if (errors) {
+       event.preventDefault();
+       const errorMessage = Object
+           .values(errors)
+           .map(function (fieldValues) { return fieldValues.join(', ')})
+           .join("\n");
+
+       alert(errorMessage);
+     }
+   }, false);
+</script>
+	
 </body>
 </html>
