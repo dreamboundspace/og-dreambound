@@ -28,8 +28,11 @@
 		<div id="about"><a href="about.html">about</a></div>
 	</div>
 	
-	<div class="container" method="POST" action="form.php" id="contact-form">
-  		<form action="action_page.php">
+	<div class="container" method="POST">
+  		<form action="https://formkeep.com/f/1d9e6a2b573e"
+   			accept-charset="UTF-8"
+  			enctype="multipart/form-data"
+   			method="POST">
 
     	<label for="fname">name</label>
     	<input type="text" id="fname" name="firstname" placeholder="name..">
@@ -55,46 +58,6 @@
 			<div id="wordmark-rainbow"><a href="index.html"><img src="images/Wordmark-rainbow.png" height="70" alt="dreambound" class="responsive"/></a></div>
 		</div>
 	</div>
-	
-	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
-	
-	
-	<script>
-   const constraints = {
-       name: {
-           presence: { allowEmpty: false }
-       },
-       email: {
-           presence: { allowEmpty: false },
-           email: true
-       },
-       message: {
-           presence: { allowEmpty: false }
-       }
-   };
-
-   const form = document.getElementById('contact-form');
-
-   form.addEventListener('submit', function (event) {
-     const formValues = {
-         name: form.elements.name.value,
-         email: form.elements.email.value,
-         message: form.elements.message.value
-     };
-
-     const errors = validate(formValues, constraints);
-
-     if (errors) {
-       event.preventDefault();
-       const errorMessage = Object
-           .values(errors)
-           .map(function (fieldValues) { return fieldValues.join(', ')})
-           .join("\n");
-
-       alert(errorMessage);
-     }
-   }, false);
-</script>
 	
 </body>
 </html>
