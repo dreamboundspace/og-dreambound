@@ -1,6 +1,3 @@
-html, body {
-  height: 200%;
-}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   background-color: transparent;
@@ -31,9 +28,21 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+#contact-form {
   border-radius: 5px;
   background-color: transparent;
   padding: 20px;
   font-family: 'Rokkitt', serif;
+}
+
+::placeholder {
+  font-family: 'Rokkitt', serif;
+}
+
+:-ms-input-placeholder {
+ font-family: 'Rokkitt', serif;
+}
+
+::-ms-input-placeholder {
+ font-family: 'Rokkitt', serif;
 }
