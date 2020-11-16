@@ -18,14 +18,13 @@
 	background-color: transparent;
 	height: 90px;
 	font-family: 'Rokkitt', serif;
-	font-size: 1000%;
+	font-size: 125%;
 	font-weight: 500;
 	text-align: center;
 }
 #edge {
 	margin-top: 10px;
 	float: left;
-	width: 70px;
 }
 .fa-instagram:hover {
 	color: gray;
