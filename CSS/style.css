@@ -6,12 +6,12 @@
  	top: 0;
 	z-index: 3;
 }
-#toplinks div {
+.toplinks div {
 	display: inline;
 	margin-left: 1em;
 	margin-right: 1em;
 }
-#toplinks {
+.toplinks {
 	position: -webkit-sticky;
 	position: sticky;
  	top: 15px;
@@ -22,12 +22,12 @@
 	text-align: center;
 }
 @media screen and (min-width: 1285px) {
-	div.example {
- 		font-size: 80px;
+	div.toplinks {
+ 		font-size: 200px;
   }
 }
 @media screen and (max-width: 1284px) {
-  	div.example {
+  	div.toplinks {
     	font-size: 30px;
   }
 }
