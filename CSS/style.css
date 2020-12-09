@@ -17,19 +17,10 @@
  	top: 15px;
 	background-color: transparent;
 	height: 90px;
+	font-size: 1.2em;
 	font-family: 'Rokkitt', serif;
 	font-weight: 500;
 	text-align: center;
-}
-@media screen and (min-width: 1285px) {
-	div.toplinks {
- 		font-size: 200px;
-  }
-}
-@media screen and (max-width: 1284px) {
-  	div.toplinks {
-    	font-size: 30px;
-  }
 }
 #edge {
 	margin-top: 10px;
