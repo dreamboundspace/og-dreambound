@@ -104,7 +104,7 @@
 	font-family: 'Bebas Neue', cursive;
 }
 @media screen and (max-width: 428px) {
-	div.boxlinks {
+	div.mobileinvis {
 		visibility: hidden;
 	}
 }
