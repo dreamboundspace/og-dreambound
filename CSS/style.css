@@ -102,6 +102,12 @@
 	background-color: black;
 	font-size: 30px;
 	font-family: 'Bebas Neue', cursive;
+	visibility: visible;
+}
+@media screen and (max-width: 428px) {
+	.boxlinks {
+		visibility: hidden;
+	}
 }
 #store {
 	position: relative;
