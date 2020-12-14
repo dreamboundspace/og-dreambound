@@ -66,6 +66,28 @@ function myFunction() {
   }
 }
 	
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("baby-moon").style.top = "0";
+  } else {
+    document.getElementById("baby-moon").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("small-menu").style.top = "0";
+  } else {
+    document.getElementById("small-menu").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+	
 </script>
 	
 </body>
