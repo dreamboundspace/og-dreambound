@@ -1,0 +1,15 @@
+#myDIV {
+	width: 100%;
+  	text-align: center;
+  	background-color: lightblue;
+	top: 80px;
+	margin-top: -20px;
+	position: -webkit-sticky;
+	position: sticky;
+  	display: none;
+}
+.mobilemenu {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	display: inline-block;
+}
