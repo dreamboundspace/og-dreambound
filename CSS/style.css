@@ -51,12 +51,12 @@
 	padding-top: 10px;
 	height: 50px;
 	visibility: hidden;
+	background-color: #EFF0D2;
 }
 
 @media screen and (max-width: 428px) {
 	.babymoon {
 		visibility: visible;
-		background-color: #EFF0D2;
 	}
 }
 	

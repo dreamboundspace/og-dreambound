@@ -1,13 +1,12 @@
 #small-menu {
 	width: 100%;
   	text-align: center;
-  	background-color: transparent;
+  	background-color: #EFF0D2;
 	top: 80px;
 	margin-top: -20px;
 	position: -webkit-sticky;
 	position: sticky;
   	display: none;
-	background-color: #EFF0D2;
 }
 .mobilemenu {
 	font-family: 'Bebas Neue', cursive;
