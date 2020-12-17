@@ -13,14 +13,14 @@
 	font-size: 28px;
 	display: inline-block;
 }
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 975px) {
   div.playlists {
     width: 50%;
 	padding-bottom: 80px;
   }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 974px) {
   div.playlists {
     width: 75%;
   }
