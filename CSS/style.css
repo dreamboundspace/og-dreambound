@@ -38,6 +38,9 @@
 	margin-top: 10px;
 	float: left;
 }
+#baby-moon {
+	margin: auto;
+}
 .fa-instagram:hover {
 	color: darkslategray;
 }
