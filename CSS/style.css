@@ -20,19 +20,21 @@
 @media screen and (max-width: 428px) {
   div.toplinks {
     font-size: 16px;
+	background-color: #eff0d2;
   }
 }
 .toplinks {
 	position: -webkit-sticky;
 	position: sticky;
  	top: 10px;
-	background-color: blue;
+	background-color: transparent;
 	height: 90px;
 	font-size: 30px;
 	font-family: 'Rokkitt', serif;
 	color: #5F5F5F;
 	font-weight: 100;
 	text-align: center;
+	z-index: 3;
 }
 #edge {
 	margin-top: 10px;
