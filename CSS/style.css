@@ -40,7 +40,6 @@
 }
 #baby-moon {
 	margin: auto;
-	padding-left: 15px;
 }
 .fa-instagram:hover {
 	color: darkslategray;
@@ -63,11 +62,11 @@
 	}
 }
 	
-#about {
+#contact {
 	margin-top: 10px;
 	float: right;
 }
-#about:hover {
+#contact:hover {
 	color: darkslategray;
 	text-decoration: line-through;
 }
@@ -168,7 +167,7 @@
 	color: tomato;
 	text-decoration: line-through;
 }
-#contact {
+#about {
 	position: relative;
 	height: auto;
 	width: auto;
@@ -178,7 +177,7 @@
 	margin-left: auto;
 	float: left;
 }
-#contact:hover {
+#about:hover {
 	color: darkorange;
 	text-decoration: line-through;
 }
