@@ -1,0 +1,27 @@
+#small-menu {
+	width: 100%;
+  	text-align: center;
+  	background-color: #eff0d2;
+	top: 80px;
+	margin-top: 0px;
+	position: -webkit-sticky;
+	position: sticky;
+  	display: none;
+}
+.mobilemenu {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	display: inline-block;
+}
+@media screen and (min-width: 975px) {
+  div.playlists {
+    width: 50%;
+	padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 974px) {
+  div.playlists {
+    width: 75%;
+  }
+}

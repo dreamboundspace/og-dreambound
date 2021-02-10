@@ -1,0 +1,197 @@
+#bottom-border {
+	height: 10px;
+	background-color: gold;
+	position: -webkit-sticky;
+	position: sticky;
+ 	top: 0;
+}
+.toplinks div {
+	display: inline;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+@media screen and (min-width: 975px) {
+  div.toplinks {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 974px) {
+  div.toplinks {
+    font-size: 16px;
+	background-color: #eff0d2;
+  }
+}
+.toplinks {
+	position: -webkit-sticky;
+	position: sticky;
+ 	top: 10px;
+	background-color: transparent;
+	height: 70px;
+	font-size: 30px;
+	font-family: 'Rokkitt', serif;
+	color: #5F5F5F;
+	font-weight: 100;
+	text-align: center;
+}
+#edge {
+	margin-top: 10px;
+	float: left;
+}
+#baby-moon {
+	margin: auto;
+}
+.fa-instagram:hover {
+	color: darkslategray;
+}
+.fa-twitter:hover {
+	color: darkslategray;
+}
+.fa-tumblr:hover {
+	color: darkslategray;
+}
+.babymoon {
+	padding-top: 10px;
+	height: 50px;
+	visibility: hidden;
+}
+
+@media screen and (max-width: 974px) {
+	.babymoon {
+		visibility: visible;
+	}
+}
+	
+#contact {
+	margin-top: 10px;
+	float: right;
+}
+#contact:hover {
+	color: darkslategray;
+	text-decoration: line-through;
+}
+#wordmark-white {
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+#wordmark-rainbow {
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0;
+}
+#wordmark-white:hover #wordmark-rainbow {
+	opacity: 1;
+}
+.responsive {
+	width: 100%;
+	max-width: 550px;
+	height: auto;
+}
+#boxlinks {
+	padding: 10px;
+	height: 30px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	margin-right: auto;
+	margin-top: auto;
+	bottom: 0px;
+	margin-left: auto;
+	color: #EFF0D2;
+	background-color: black;
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+@media screen and (max-width: 974px) {
+	div.mobileinvis {
+		visibility: hidden;
+	}
+}
+#store {
+	position: relative;
+	height: auto;
+	width: auto;
+	padding-left: 50px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+#store:hover {
+	color: #f89fb2;
+	text-decoration: line-through;
+}
+#blog {
+	position: relative;
+	height: auto;
+	width: auto;
+	padding-left: 7px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+#blog:hover {
+	color: greenyellow;
+	text-decoration: line-through;
+}
+#design {
+	position: relative;
+	height: auto;
+	width: auto;
+	padding-left: 7px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+#design:hover {
+	color: lightskyblue;
+	text-decoration: line-through;
+}
+#playlists {
+	position: relative;
+	height: auto;
+	width: auto;
+	padding-left: 7px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+#playlists:hover {
+	color: tomato;
+	text-decoration: line-through;
+}
+#about {
+	position: relative;
+	height: auto;
+	width: auto;
+	padding-left: 7px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+#about:hover {
+	color: darkorange;
+	text-decoration: line-through;
+}
+#vote {
+	position: relative;
+	height: auto;
+	width: auto;
+	padding-left: 7px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+}
+#vote:hover {
+	color: gold;
+	text-decoration: line-through;
+}
